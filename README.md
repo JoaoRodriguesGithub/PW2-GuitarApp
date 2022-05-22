@@ -1,3 +1,10 @@
+# Purpose
+
+Project for the Web Programming I class @IPCA.
+
+On this class project was proposed to be developed an Angular app that can list, create, and remove one determined concept of choice. This case was chosen guitars
+
+
 # Guitarsapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
