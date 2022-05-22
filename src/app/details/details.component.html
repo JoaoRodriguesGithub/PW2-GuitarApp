@@ -1,0 +1,11 @@
+<div class="justify-content-center">
+  <mat-card>
+    <img mat-card-image [src]="guitars.image" alt="Guitar Image">
+    <mat-card-content>
+      <mat-card-title>Brand: {{guitars.brand}}</mat-card-title>
+      <mat-card-subtitle>Model: {{guitars.model}}</mat-card-subtitle>
+      <mat-card-subtitle>Year: {{guitars.year}}</mat-card-subtitle>
+    </mat-card-content>
+    <button mat-raised-button color="warn" (click)="remove()">Remove</button>
+  </mat-card>
+</div>

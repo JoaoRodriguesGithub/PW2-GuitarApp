@@ -1,0 +1,25 @@
+<div class="justify-content-center">
+    <mat-toolbar>
+        <span>New Guitar</span>
+    </mat-toolbar>
+    <form>
+        <div class="mb-3">
+            <label for="brand" class="form-label">Brand</label>
+            <input type="text" class="form-control" id="brand" #guitarBrand>
+        </div>
+        <div class="mb-3">
+            <label for="model" class="form-label">Model</label>
+            <input type="text" class="form-control" id="model" #guitarModel>
+        </div>
+        <div class="mb-3">
+            <label for="year" class="form-label">Year</label>
+            <input type="number" class="form-control" id="year" #guitarYear>
+        </div>
+        <div class="mb-3">
+            <label for="pictureUrl" class="form-label">Picture URL</label>
+            <input type="text" class="form-control" id="pictureUrl" #guitarUrl>
+        </div>
+    </form>
+    <button class="btn btn-primary"
+        (click)="addGuitars(guitarUrl.value,guitarBrand.value,guitarModel.value,guitarYear.value)">Create</button>
+</div>
